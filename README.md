@@ -1,7 +1,7 @@
 # Cracking-the-Coding-Interview-problems
 This repository contains the topic-wise coding questions and their solutions from the book Cracking the coding interview.
 
-Below are the questions for **Arrays and Strings**:
+**Below are the questions for Arrays and Strings**:
 
 1.1 Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 

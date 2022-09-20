@@ -28,3 +28,21 @@ This repository contains the topic-wise coding questions and their solutions fro
 1.9 String rotation: Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring.
 
 ### Linked List:
+
+2.1 Rmove Dups: Write code to remove duplicates from an unsorted linked list.
+    FOLLOW UP
+    How would you solve this problem if a temporary buffer is not allowed?
+    
+2.2 Return Kth to last: Write an algorithm to find the kth to last element of a singly linked list.
+
+2.3 Delete middle node: Delete element in a LinkedList given access only to that element
+
+2.4 Partition: Partition a linked list around a value
+
+2.5 Sum Lists: Add values from two linked lists together
+
+2.6 Palindrome: Is a linked list a palendrome
+
+2.7 Insertion: Determine of two linked lists intersect.
+
+2.8 Loop Detection: Find the start of a looped linked list

@@ -41,7 +41,7 @@ This repository contains the topic-wise coding questions and their solutions fro
 
 2.5 Sum Lists: Add values from two linked lists together
 
-2.6 Palindrome: Is a linked list a palendrome
+2.6 Palindrome: Is a linked list a palindrome
 
 2.7 Insertion: Determine of two linked lists intersect.
 

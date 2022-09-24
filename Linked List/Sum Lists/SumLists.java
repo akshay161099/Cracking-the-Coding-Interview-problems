@@ -7,7 +7,6 @@ public class SumLists{
             next = null;
         }
     }
-
     public static void main(String[] args) {
         int[] arr1 = {1,2,4,2,3,1,6};
         int[] arr2 = {3,6,1,4,8};
@@ -18,7 +17,7 @@ public class SumLists{
             newhead.next = new Node(arr1[i]);
             newhead = newhead.next;
         }
-        nwehead= head2;
+        newhead= head2;
         for(int i = 0;i<arr2.length;i++) {
             newhead.next = new Node(arr2[i]);
             newhead = newhead.next;
@@ -26,13 +25,14 @@ public class SumLists{
         head1 = head1.next;
         head2 = head2.next;
         Node result = sumList(head1,head2);
-        while(result!=null){
+        while(result.next!=null){
             System.out.print(result.data+"->");
             result = result.next;
         }
+        System.out.print(result.data);
 
     }
-    public static sumList(Node head1, Node head2){
+    public static Node sumList(Node head1, Node head2){
         Node first = head1;
         Node second = head2;
         int sum = 0;
@@ -62,7 +62,7 @@ public class SumLists{
                 sum = first.data+carry;
                 carry = 0;
             }
-            newHead = new Node(sum);
+            newHead.next = new Node(sum);
             newHead = newHead.next;
             first = first.next;
         }
@@ -75,7 +75,7 @@ public class SumLists{
                 sum = second.data+carry;
                 carry = 0;
             }
-            newHead = new Node(sum);
+            newHead.next = new Node(sum);
             newHead = newHead.next;
             second = second.next;
         }

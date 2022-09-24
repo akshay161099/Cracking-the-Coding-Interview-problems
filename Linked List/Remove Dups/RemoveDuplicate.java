@@ -1,5 +1,4 @@
 
-
 public class RemoveDuplicate {
     static class Node{
         int data;

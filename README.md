@@ -43,6 +43,6 @@ This repository contains the topic-wise coding questions and their solutions fro
 
 2.6 Palindrome: Is a linked list a palindrome
 
-2.7 Insertion: Determine of two linked lists intersect.
+2.7 Intersection: Determine of two linked lists intersect.
 
 2.8 Loop Detection: Find the start of a looped linked list
